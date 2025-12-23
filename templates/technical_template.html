@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+    <table class ="kpi-table">
+
+	<tbody>
+		<tr>
+			<td>App Exceptions per Session<br /> {{ kpis['App Exceptions per Session']}}</td>
+			<td>Ad Load Failures per Session<br /> {{ kpis['Ad Load Failures per Session']}}</td>
+        </tr>       
+
+            </tbody>         
+</table></div>
+
+<div class="table-scroll-container">
+    <table class="table-scroll new-user-table">
+
+            <thead>
+                <tr>
+                    {% for col in technical_cols %}
+                        <th>{{ col }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in technical_df %}
+                <tr>
+                    {% for col in technical_cols %}
+                        <td>{{ row[col] }}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

@@ -1,0 +1,24 @@
+event_datetime,event_name,user_pseudo_id,event_params__ga_session_id,app_info__version,device__mobile_marketing_name,device__operating_system_version,prev_event_name,prev_event_menu,event_params__ad_network,event_params__ad_instance,event_params__ad_id,event_params__ad_error_code,event_server_delay_seconds
+2025-12-21 18:54:06+00:00,Ad Load Failed,098e949e5f0d155979cb9ad3155377bc,10532.0,1.0.7,iPhone,Android 15,Starting Currencies,,,,,1,0.09257496392828313
+2025-12-23 08:51:06+00:00,Ad Load Failed,0aeee8c1b6c81f8ff4812736fc9732f6,10305.0,1.0.6,Pixel,17,Question Started,,,,,1,1.982041025014645
+2025-12-19 08:10:06+00:00,Ad Load Failed,144daa6134edb65222b43a32e20dc4ea,10211.0,1.0.5,iPhone,Android 15,Starting Currencies,,,,,1,0.1376757026751756
+2025-12-19 06:41:07+00:00,App Exception,210204f13045dda314304f8c6aa3e7c8,10515.0,1.0.6,Pixel,17,Starting Currencies,,,,,,2.8437268489455665
+2025-12-18 21:26:06+00:00,Ad Load Failed,2235c38e7faa6d86405f43e191c0e347,10591.0,1.0.6,iPhone,17,Starting Currencies,,,,,timeout,1.8926265688165416
+2025-12-20 03:10:06+00:00,Ad Load Failed,295a1473e7e4a98fe14b43fbcff4ba0c,10380.0,1.0.7,iPhone,18,Starting Currencies,,,,,timeout,1.5696378085398948
+2025-12-17 00:30:07+00:00,App Exception,29dd9aff1852c8a81d63a4b8713df872,10024.0,1.0.5,Pixel,16,Mini-game Started,,,,,,4.4823463646327335
+2025-12-23 19:27:06+00:00,Ad Load Failed,30e6100f8072e44fa7b732056e363274,10173.0,1.0.6,Galaxy,18,Starting Currencies,,,,,timeout,0.013479632709167966
+2025-12-22 07:16:06+00:00,Ad Load Failed,32956f2219b778f63805c6bf48d92ec7,10565.0,1.0.7,Pixel,Android 15,Starting Currencies,,,,,1,0.70783397819983
+2025-12-22 07:19:07+00:00,App Exception,34ee0e6284f0f595de5a1b623d428e5f,10447.0,1.0.6,Galaxy,16,Starting Currencies,,,,,,1.7982976381445552
+2025-12-23 09:30:06+00:00,Ad Load Failed,3abf17cf92acf9bb04aa59df9ebdc532,10481.0,1.0.5,iPhone,17,Starting Currencies,,,,,1,1.2495488518037694
+2025-12-23 01:13:06+00:00,Ad Load Failed,41fa2a47c7329f74d7488392021f3a0a,10319.0,1.0.7,iPhone,17,Mini-game Completed,,,,,timeout,1.7860316228879107
+2025-12-23 04:57:06+00:00,Ad Load Failed,4d5bab91b5d705826cb58f5900487058,10123.0,1.0.7,iPhone,Android 15,Starting Currencies,,,,,0,1.6326289880276192
+2025-12-21 08:40:06+00:00,Ad Load Failed,55a0e765c0bdb6744f5f251c65d85689,10188.0,1.0.7,iPhone,17,Starting Currencies,,,,,1,1.4775381377830497
+2025-12-22 19:27:07+00:00,App Exception,95f99f5483926a240883f5194f893973,10308.0,1.0.5,Pixel,16,Starting Currencies,,,,,,4.001902958041503
+2025-12-09 14:04:06+00:00,Ad Load Failed,9da4553377664bd592628b52b29b6ce0,10364.0,1.0.6,Pixel,16,Starting Currencies,,,,,1,1.7760017345823742
+2025-12-22 01:11:06+00:00,Ad Load Failed,a7b3b0d79637f66f01467288b67eefe0,10428.0,1.0.6,iPhone,17,Mini-game Started,,,,,1,1.566261930476591
+2025-12-23 09:09:06+00:00,Ad Load Failed,b9c6694264830615f6c6267c07896958,10353.0,1.0.7,Galaxy,17,Starting Currencies,,,,,timeout,0.06586442507535462
+2025-12-23 06:15:07+00:00,App Exception,c818f186550a00abbd5dd34c87275abc,10333.0,1.0.5,Galaxy,16,Starting Currencies,,,,,,0.02202466358748434
+2025-12-23 09:08:06+00:00,Ad Load Failed,caac969248f7727b67ca63d3714e1bc4,10180.0,1.0.7,Galaxy,18,Mini-game Started,,,,,2,0.7908814411779206
+2025-12-17 20:33:07+00:00,App Exception,cb6252a86272a9af200721c879f780eb,10115.0,1.0.7,Pixel,Android 15,Mini-game Started,,,,,,2.3318214664297314
+2025-12-12 03:05:07+00:00,App Exception,cc4bb625d81e850982d8134bcd9e59a5,10014.0,1.0.6,Pixel,18,Starting Currencies,,,,,,0.3794355063567184
+2025-12-18 02:10:06+00:00,Ad Load Failed,d1026872e7d5e9fce3c90598e9f041e7,10500.0,1.0.5,Pixel,16,Mini-game Started,,,,,1,1.665426733443205

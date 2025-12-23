@@ -1,0 +1,9 @@
+[project]
+name = "emoji-oracle-mock"
+version = "0.1.0"
+description = "Standalone mock data generator for emoji-oracle-analytics"
+requires-python = ">=3.10"
+dependencies = ["pandas", "numpy"]
+
+[project.scripts]
+emoji-oracle-mock = "emoji_oracle_mock.cli:main"

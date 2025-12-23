@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<div>
+    <table class ="kpi-table">
+
+	<tbody>
+		<tr>
+			<td>Total Users<br /> {{ kpis['Total Users']}}</td>
+			<td>Users per Day<br /> {{ kpis['Users per Day']}}</td>
+			<td>Average Session Duration<br /> {{ kpis['Average Session Duration']}} mins</td>
+			
+
+			
+		</tr>
+		<tr>
+			<td>Total Sessions <br /> {{ kpis['Total Sessions']}}</td>
+			<td>Sessions per Day<br /> {{ kpis['Sessions per Day']}}</td>
+			<td>Sessions per User<br /> {{ kpis['Sessions per User']}}</td>
+			
+		</tr>
+		<tr>
+			<td>1-Day Retention<br /> {{ kpis['1-Day Retention %']}}%</td>
+			<td>7-Day Retention<br /> {{ kpis['7-Day Retention %']}}%</td>
+			<td>30-Day Retention<br /> {{ kpis['30-Day Retention %']}}%</td>
+		</tr>
+		<tr>
+			
+			
+      <td>App Exceptions<br /> {{ kpis['App Exceptions']}}%</td>
+	  <td>App Exceptions per Session<br /> {{ kpis['App Exceptions per Session']}}</td>
+	  <td>Ads per Session<br /> {{ kpis['Ads per Session']}}</td>
+		</tr>
+		<tr>
+			
+		</tr>
+		<tr>
+			<td>Total Ads Viewed<br /> {{ kpis['Total Ads Viewed']}}</td>
+			<td>Ads per User<br /> {{ kpis['Ads per User']}}</td>
+			<td>Ads per User per Day<br /> {{ kpis['Ads per User per Day']}}</td>
+		</tr>
+		<tr>
+			<td>Tutorial Completion %<br /> {{ kpis['Tutorial Completion %']}}%</td>
+			<td><br /></td>
+			<td><br /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+{% endblock %}

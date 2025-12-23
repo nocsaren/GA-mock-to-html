@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div>
+    <table class ="kpi-table">
+
+	<tbody>
+		<tr>
+            <td>Ad Load Failures per Session<br /> {{ kpis['Ad Load Failures per Session']}}</td>
+			<td>Total Ads Viewed<br /> {{ kpis['Total Ads Viewed']}}</td>
+		</tr>       
+        <tr>
+            <td  colspan = 2>
+                {{ ads_per_day_chart | safe }}
+            </td>
+        </tr>
+            </tbody>         
+</table></div>
+
+
+
+    
+{% endblock %}

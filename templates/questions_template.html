@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {{ questions_heatmap }}
+    {{ ads_per_question_heatmap }}
+    {% for fig in item_histograms %}
+    {{ fig | safe }}
+    {% endfor %}
+{% endblock %}

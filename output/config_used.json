@@ -1,0 +1,44 @@
+{
+  "seed": 7,
+  "users": 250,
+  "days": 21,
+  "avg_sessions_per_user": 2.3,
+  "tiers": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "questions_per_tier": 12,
+  "countries": [
+    "United States",
+    "T\u00fcrkiye"
+  ],
+  "app_versions": [
+    "1.0.5",
+    "1.0.6",
+    "1.0.7"
+  ],
+  "operating_systems": [
+    "ANDROID",
+    "IOS"
+  ],
+  "vocab": {
+    "characters": [
+      "Astra",
+      "Borin",
+      "Cyra",
+      "Dax"
+    ],
+    "special_character_for_offsets": "Astra",
+    "alicin_name": "MoonTea",
+    "coffee_name": "SunBrew",
+    "cauldron_name": "Kettle",
+    "scroll_menu_name": "Codex",
+    "potion_name": "Elixir",
+    "incense_name": "HerbSmoke",
+    "amulet_name": "Charm",
+    "wheel_impression_ri": "Daily Spin",
+    "wheel_skip_ri": "spin_skipped"
+  }
+}

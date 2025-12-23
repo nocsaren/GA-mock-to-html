@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>{{ title }}</title>
+
+{% block head %}
+    <link rel="stylesheet" href="style.css" />
+{% endblock %}
+
+
+</head>
+<body>
+
+<div class="container">
+    <nav class="sidebar">
+        <a href="index.html">Main</a>
+        <a href="users.html">Users</a>
+        <a href="sessions.html">Sessions</a>
+        <a href="questions.html">Questions</a>
+        <a href="ads.html">Ads</a>
+        <a href="technical.html">Technical</a>
+    </nav>
+
+    <main class="content">
+        <div class="kpi-header">
+            {{ kpis['From'] }} - {{ kpis['To'] }} <br> {{ kpis['Total Days'] }} days
+        </div>
+
+        {% block content %}{% endblock %}
+    </main>
+</div>
+
+</body>
+</html>

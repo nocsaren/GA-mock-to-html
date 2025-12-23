@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {{ users_chart }}
+    {{ new_users_per_day_chart }}
+    {{ user_last_event_chart }}
+
+<h3>New Users (max 100)</h3>
+<div class="table-scroll-container">
+    <table class="table-scroll new-user-table">
+            <thead>
+                <tr>
+                    {% for col in users_cols %}
+                        <th>{{ col }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in new_users %}
+                <tr>
+                    {% for col in users_cols %}
+                        <td>{{ row[col] }}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}
